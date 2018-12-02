@@ -1,0 +1,14 @@
+﻿<Window x:Class="Interface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interface"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+		<Button x:Name="btnSudoku" Content="Sudoku" HorizontalAlignment="Left" Margin="77,104,0,0" VerticalAlignment="Top" Width="125" BorderThickness="2" FontSize="20" Height="75" Click="btnSudoku_Click"/>
+		<Button x:Name="btnMancala" Content="Mancala" HorizontalAlignment="Left" Margin="207,104,0,0" VerticalAlignment="Top" Width="125" BorderThickness="2" FontSize="20" Height="75" Click="btnMancala_Click"/>
+
+	</Grid>
+</Window>
