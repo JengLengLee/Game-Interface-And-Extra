@@ -20,3 +20,21 @@ C:\Users\RPGrinders~\Desktop\Classes\2018\2018 Fall Class\C# Part 2\Interface\In
 C:\Users\RPGrinders~\Desktop\Classes\2018\2018 Fall Class\C# Part 2\Interface\Interface\obj\Debug\Interface.csproj.CopyComplete
 C:\Users\RPGrinders~\Desktop\Classes\2018\2018 Fall Class\C# Part 2\Interface\Interface\obj\Debug\Interface.exe
 C:\Users\RPGrinders~\Desktop\Classes\2018\2018 Fall Class\C# Part 2\Interface\Interface\obj\Debug\Interface.pdb
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\bin\Debug\Interface.exe.config
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\obj\Debug\Interface.exe
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\obj\Debug\Interface.pdb
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\bin\Debug\Interface.exe
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\bin\Debug\Interface.pdb
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\bin\Debug\Mancala.exe
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\bin\Debug\SudokuGame.exe
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\bin\Debug\Mancala.pdb
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\bin\Debug\SudokuGame.pdb
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\obj\Debug\MainWindow.g.cs
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\obj\Debug\App.g.cs
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\obj\Debug\Interface_MarkupCompile.cache
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\obj\Debug\Interface_MarkupCompile.lref
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\obj\Debug\MainWindow.baml
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\obj\Debug\Interface.g.resources
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\obj\Debug\Interface.Properties.Resources.resources
+C:\Users\23211794\Desktop\Game-Interface-And-Extra-master\Interface\obj\Debug\Interface.csproj.GenerateResource.Cache

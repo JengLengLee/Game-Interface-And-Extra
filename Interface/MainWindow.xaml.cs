@@ -38,5 +38,10 @@ namespace Interface
             Mancala.MainWindow mancala = new Mancala.MainWindow();
             mancala.ShowDialog();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

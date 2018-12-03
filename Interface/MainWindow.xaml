@@ -5,10 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Interface"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="431" Width="324">
+    <Window.Background>
+        <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowColorKey}}"/>
+    </Window.Background>
     <Grid>
-		<Button x:Name="btnSudoku" Content="Sudoku" HorizontalAlignment="Left" Margin="77,104,0,0" VerticalAlignment="Top" Width="125" BorderThickness="2" FontSize="20" Height="75" Click="btnSudoku_Click"/>
-		<Button x:Name="btnMancala" Content="Mancala" HorizontalAlignment="Left" Margin="207,104,0,0" VerticalAlignment="Top" Width="125" BorderThickness="2" FontSize="20" Height="75" Click="btnMancala_Click"/>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}" Offset="0.263"/>
+                <GradientStop Color="#FF5BE24E" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button x:Name="btnSudoku" Content="Sudoku" HorizontalAlignment="Left" Margin="73,138,0,0" VerticalAlignment="Top" Width="161" BorderThickness="1" FontSize="20" Height="37" Click="btnSudoku_Click" FontFamily="Impact">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF9F9F9" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnMancala" Content="Mancala" HorizontalAlignment="Left" Margin="73,240,0,0" VerticalAlignment="Top" Width="161" BorderThickness="1" FontSize="20" Height="37" Click="btnMancala_Click" FontFamily="Impact">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowColorKey}}"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="label" Content="Select the game you would like to play below" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" FontFamily="Impact" Margin="0,10,0,0"/>
+        <Label x:Name="label1" Content="Or" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="141,193,0,0" FontWeight="Bold" FontFamily="Impact" FontSize="16"/>
+        <Button x:Name="button1" Content="Exit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="218,370,0,0" Click="button1_Click">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
+            </Button.Background>
+        </Button>
 
-	</Grid>
+    </Grid>
 </Window>
