@@ -77,7 +77,7 @@ namespace SudokuGame
         }
 
         /// <summary>
-        /// Gets or sets the onGoingGame bool
+        /// Gets or sets a value indicating whether the onGoingGame bool
         /// </summary>
         public bool OnGoingGame
         {
