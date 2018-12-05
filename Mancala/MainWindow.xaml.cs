@@ -7,7 +7,7 @@
 namespace Mancala
 {
     using System.Threading;
-using System.Threading.Tasks;
+    using System.Threading.Tasks;
     using System.Windows;
     using System.Windows.Controls;
     using System.Windows.Media;
@@ -528,7 +528,7 @@ using System.Threading.Tasks;
             else
             {
                 position = currentPlayer.FindBestMove(this.currentGame.ArrGameBoard, this.currentGame.PlayerOneTurn);
-            }            
+            }
 
             string boxName = "slot" + position;
             Border currentBox = FindName(boxName) as Border;
@@ -572,7 +572,7 @@ using System.Threading.Tasks;
                     this.EnableBoard();
                     this.UpdateValues();
                     await Task.Delay(1000);
-                    this.IsAiTurn();  
+                    this.IsAiTurn();
                 }
             }
             else
